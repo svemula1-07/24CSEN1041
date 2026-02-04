@@ -72,3 +72,41 @@ only_letters = "HelloWorld"
 only_digits = "12345"
 print("'HelloWorld'.isalpha() ->", only_letters.isalpha())
 print("'12345'.isdigit() ->", only_digits.isdigit())          
+
+
+
+output
+s1 = Hello
+s2 = v sri siddarth
+s3 = Welcome to python class
+
+First character of s1: H
+Last character of s1: o
+
+Concatenation (s1 + ' ' + s2): Hello v sri siddarth
+Repetition (s1 * 3): HelloHelloHello
+Length of s3: 23
+'Py' in s2? False
+'java' not in s2? True
+
+text = Programming
+text[0:4]   = Prog
+text[3:]    = gramming
+text[:5]    = Progr
+text[-4:]   = ming
+text[::2]   = Pormig
+text[::-1]  = gnimmargorP
+
+Original sample: '   hello python world   '
+strip()       -> 'hello python world'
+upper()       ->    HELLO PYTHON WORLD   
+lower()       ->    hello python world   
+replace('python', 'Java') ->    hello Java world   
+split() -> ['hello', 'python', 'world']
+'-'.join(words) -> hello-python-world
+find('python') -> 9
+count('l') -> 3
+startswith('   he') -> True
+endswith('world   ') -> True
+'HelloWorld'.isalpha() -> True
+'12345'.isdigit() -> True
